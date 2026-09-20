@@ -31,7 +31,7 @@ jobs:
     env:
       JET_TEST: ${{ matrix.version == '1' }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: julia-actions/setup-julia@v2
         with:
           version: ${{ matrix.version }}
@@ -69,7 +69,7 @@ jobs:
     env:
       JET_TEST: ${{ matrix.os == 'ubuntu-latest' && matrix.version == '1' }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: julia-actions/setup-julia@v2
         with:
           version: ${{ matrix.version }}
@@ -92,7 +92,7 @@ jobs:
       contents: write
       statuses: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: julia-actions/setup-julia@v2
         with:
           version: '1'

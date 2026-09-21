@@ -1,4 +1,4 @@
-using PkgFactoryAllInOne
+using TemplateAllInOne
 using Test
 
 include("aqua.jl")
@@ -7,6 +7,6 @@ include("aqua.jl")
     include("jet.jl")
 end
 
-@testset "PkgFactoryAllInOne.hello" begin
-    @test PkgFactoryAllInOne.hello() == "Hello, World!"
+@testset "TemplateAllInOne.hello" begin
+    @test TemplateAllInOne.hello() == "Hello, World!"
 end

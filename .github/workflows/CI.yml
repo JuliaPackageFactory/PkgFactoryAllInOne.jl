@@ -106,6 +106,6 @@ jobs:
         shell: julia --project=docs --color=yes {0}
         run: |
           using Documenter: DocMeta, doctest
-          using PkgFactoryAllInOne
-          DocMeta.setdocmeta!(PkgFactoryAllInOne, :DocTestSetup, :(using PkgFactoryAllInOne); recursive=true)
-          doctest(PkgFactoryAllInOne)
+          using TemplateAllInOne
+          DocMeta.setdocmeta!(TemplateAllInOne, :DocTestSetup, :(using TemplateAllInOne); recursive=true)
+          doctest(TemplateAllInOne)

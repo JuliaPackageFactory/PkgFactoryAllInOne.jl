@@ -1,23 +1,23 @@
 ```@meta
-CurrentModule = PkgFactoryAllInOne
+CurrentModule = TemplateAllInOne
 ```
 
 # User Guide
 
-Before starting the tutorial, complete the [Quick Start](@ref) section. Feature requests and bug reports are handled through GitHub [Issues](https://github.com/JuliaPackageFactory/PkgFactoryAllInOne.jl/issues).
+Before starting the tutorial, complete the [Quick Start](@ref) section. Feature requests and bug reports are handled through GitHub [Issues](https://github.com/JuliaPackageFactory/TemplateAllInOne.jl/issues).
 
 ## Tutorial
 
 ```@repl
-import PkgFactoryAllInOne
-PkgFactoryAllInOne.hello()
+import TemplateAllInOne
+TemplateAllInOne.hello()
 ```
 
 ## Examples
 
 ```@example
-import PkgFactoryAllInOne
-text_1 = PkgFactoryAllInOne.hello()
+import TemplateAllInOne
+text_1 = TemplateAllInOne.hello()
 text_2 = "Goodbye, World!"
 text_1 * " " * text_2
 ```

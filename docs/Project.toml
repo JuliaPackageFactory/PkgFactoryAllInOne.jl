@@ -1,5 +1,5 @@
 [deps]
-PkgFactoryAllInOne = "e625b4ae-d6f6-409f-bbf2-54d8e3b9029e"
+TemplateAllInOne = "e625b4ae-d6f6-409f-bbf2-54d8e3b9029e"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
 [compat]

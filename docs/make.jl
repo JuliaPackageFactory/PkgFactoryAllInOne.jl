@@ -1,14 +1,14 @@
-using PkgFactoryAllInOne
+using TemplateAllInOne
 using Documenter
 
-DocMeta.setdocmeta!(PkgFactoryAllInOne, :DocTestSetup, :(using PkgFactoryAllInOne); recursive = true)
+DocMeta.setdocmeta!(TemplateAllInOne, :DocTestSetup, :(using TemplateAllInOne); recursive = true)
 
 makedocs(;
-    modules = [PkgFactoryAllInOne],
+    modules = [TemplateAllInOne],
     authors = "PkgFactory CI",
-    sitename = "PkgFactoryAllInOne.jl",
+    sitename = "TemplateAllInOne.jl",
     format = Documenter.HTML(;
-        canonical = "https://JuliaPackageFactory.github.io/PkgFactoryAllInOne.jl",
+        canonical = "https://JuliaPackageFactory.github.io/TemplateAllInOne.jl",
         edit_link = "main",
         assets = String[],
     ),
@@ -21,6 +21,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/JuliaPackageFactory/PkgFactoryAllInOne.jl",
+    repo = "github.com/JuliaPackageFactory/TemplateAllInOne.jl",
     devbranch = "main",
 )

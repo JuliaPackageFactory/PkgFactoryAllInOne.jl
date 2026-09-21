@@ -4,7 +4,7 @@ CurrentModule = PkgFactoryAllInOne
 
 # [Developer Guide](@id developer-guide)
 
-If you are planning significant changes, open an [issue](https://github.com/ohno/PkgFactoryAllInOne.jl/issues) first. The [ColPrac](https://github.com/SciML/ColPrac) guidelines are recommended. For Julia package development basics, see:
+If you are planning significant changes, open an [issue](https://github.com/JuliaPackageFactory/PkgFactoryAllInOne.jl/issues) first. The [ColPrac](https://github.com/SciML/ColPrac) guidelines are recommended. For Julia package development basics, see:
 - [How to develop a Julia package](https://julialang.org/contribute/developing_package/)
 - [Pkg: Creating packages](https://pkgdocs.julialang.org/v1/creating-packages/)
 
@@ -12,7 +12,7 @@ If you are planning significant changes, open an [issue](https://github.com/ohno
 
 This procedure is required only once. Install [Git](https://git-scm.com/) and [Julia](https://julialang.org/install/) on your local machine before starting.
 
-1. Fork the [repository](https://github.com/ohno/PkgFactoryAllInOne.jl) on GitHub.
+1. Fork the [repository](https://github.com/JuliaPackageFactory/PkgFactoryAllInOne.jl) on GitHub.
 2. Clone the forked repository. Replace `xxxxxx` with your GitHub username.
    ```sh
    git clone https://github.com/xxxxxx/PkgFactoryAllInOne.jl.git
@@ -65,8 +65,8 @@ This is the typical workflow for making changes.
 
 This project follows [Semantic Versioning](https://semver.org/) and the [ColPrac version increment guidelines](https://github.com/SciML/ColPrac?tab=readme-ov-file#incrementing-the-package-version). When bumping the version, update:
 
-- the version in [Project.toml](https://github.com/ohno/PkgFactoryAllInOne.jl/blob/main/Project.toml)
-- the version, year, and month in [CITATION.bib](https://github.com/ohno/PkgFactoryAllInOne.jl/blob/main/CITATION.bib)
+- the version in [Project.toml](https://github.com/JuliaPackageFactory/PkgFactoryAllInOne.jl/blob/main/Project.toml)
+- the version, year, and month in [CITATION.bib](https://github.com/JuliaPackageFactory/PkgFactoryAllInOne.jl/blob/main/CITATION.bib)
 
 Keep the version values synchronized, and set the citation date to the release date.
 

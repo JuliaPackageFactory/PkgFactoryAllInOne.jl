@@ -4,7 +4,7 @@ CurrentModule = PkgFactoryAllInOne
 
 # User Guide
 
-Before starting the tutorial, complete the [Quick Start](@ref) section. Feature requests and bug reports are handled through GitHub [Issues](https://github.com/ohno/PkgFactoryAllInOne.jl/issues).
+Before starting the tutorial, complete the [Quick Start](@ref) section. Feature requests and bug reports are handled through GitHub [Issues](https://github.com/JuliaPackageFactory/PkgFactoryAllInOne.jl/issues).
 
 ## Tutorial
 

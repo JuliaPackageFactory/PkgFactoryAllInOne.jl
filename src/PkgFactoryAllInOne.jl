@@ -1,4 +1,4 @@
-module AllInOne
+module PkgFactoryAllInOne
 
 # Packages
 
@@ -12,7 +12,7 @@ Return a friendly greeting.
 # Examples
 
 ```jldoctest
-julia> AllInOne.hello()
+julia> PkgFactoryAllInOne.hello()
 "Hello, World!"
 ```
 """

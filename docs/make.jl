@@ -1,14 +1,14 @@
-using AllInOne
+using PkgFactoryAllInOne
 using Documenter
 
-DocMeta.setdocmeta!(AllInOne, :DocTestSetup, :(using AllInOne); recursive = true)
+DocMeta.setdocmeta!(PkgFactoryAllInOne, :DocTestSetup, :(using PkgFactoryAllInOne); recursive = true)
 
 makedocs(;
-    modules = [AllInOne],
+    modules = [PkgFactoryAllInOne],
     authors = "PkgFactory CI",
-    sitename = "AllInOne.jl",
+    sitename = "PkgFactoryAllInOne.jl",
     format = Documenter.HTML(;
-        canonical = "https://ohno.github.io/AllInOne.jl",
+        canonical = "https://ohno.github.io/PkgFactoryAllInOne.jl",
         edit_link = "main",
         assets = String[],
     ),
@@ -21,6 +21,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/ohno/AllInOne.jl",
+    repo = "github.com/ohno/PkgFactoryAllInOne.jl",
     devbranch = "main",
 )

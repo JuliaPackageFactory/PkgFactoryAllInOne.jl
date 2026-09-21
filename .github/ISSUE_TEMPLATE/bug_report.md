@@ -32,7 +32,7 @@ Stacktrace:
 julia> versioninfo()
 # Paste the complete output here.
 
-julia> import Pkg; Pkg.status("AllInOne")
+julia> import Pkg; Pkg.status("PkgFactoryAllInOne")
 # Paste the complete output here.
 
 ```

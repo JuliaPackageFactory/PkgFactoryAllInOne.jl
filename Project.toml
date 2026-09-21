@@ -1,4 +1,4 @@
-name = "AllInOne"
+name = "PkgFactoryAllInOne"
 uuid = "e625b4ae-d6f6-409f-bbf2-54d8e3b9029e"
 authors = ["PkgFactory CI"]
 version = "0.0.1"

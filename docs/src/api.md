@@ -1,10 +1,10 @@
 ```@meta
-CurrentModule = AllInOne
+CurrentModule = PkgFactoryAllInOne
 ```
 
 # API Reference
 
-The API reference below is generated from docstrings in the [source code](https://github.com/ohno/AllInOne.jl/tree/main/src).
+The API reference below is generated from docstrings in the [source code](https://github.com/ohno/PkgFactoryAllInOne.jl/tree/main/src).
 
 ## Index
 
@@ -14,6 +14,6 @@ The API reference below is generated from docstrings in the [source code](https:
 ## Docstrings
 
 ```@autodocs
-Modules = [AllInOne]
+Modules = [PkgFactoryAllInOne]
 ```
 

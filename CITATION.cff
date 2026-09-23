@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+type: software
+title: "TemplateAllInOne.jl"
+# Author display names are preserved in family-names without guessing name parts.
+# Before release, split given-names and family-names where appropriate; citation
+# styles may otherwise treat the full display name as a surname.
+authors:
+  - family-names: "PkgFactory CI"
+version: "0.0.1"
+repository-code: "https://github.com/JuliaPackageFactory/TemplateAllInOne.jl"
+license: MIT

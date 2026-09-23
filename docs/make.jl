@@ -11,7 +11,7 @@ DocMeta.setdocmeta!(TemplateAllInOne, :DocTestSetup, :(using TemplateAllInOne); 
 makedocs(;
     checkdocs = :public,
     modules = [TemplateAllInOne],
-    authors = "PkgFactory CI",
+    authors = "Shuhei Ohno",
     sitename = "TemplateAllInOne.jl",
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", "false") == "true",
